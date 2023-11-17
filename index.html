@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nearby Home</title>
+    <link
+      rel="shortcut icon"
+      href="./Photos/cardImage1.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./dist/output.css" />
+  </head>
+  <body class="box scrollbar-hide box-border">
+    <div
+      class="flex flex-col overflow-hidden w-full h-full items-center justify-center bg-slate-50"
+    >
+      <!-- Home page -->
+      <section
+        aria-label="home-container"
+        class="h-screen w-full px-2 md:px-20 text-white bg-no-repeat bg-cover bg-black bg-fixed"
+        style="
+          background-image: linear-gradient(
+              to bottom,
+              rgba(0, 0, 0, 0),
+              rgba(0, 0, 0, 0.9)
+            ),
+            url(./Photos/mainBackground.png);
+        "
+      >
+        <header class="flex flex-col h-screen">
+          <!-- Navigation -->
+          <nav
+            class="flex flex-row justify-between mt-2 md:mt-4 border-b-[1px] py-2"
+          >
+            <div class="logo md:mx-8">
+              <img src="./Icons/Logo.svg" alt="nav-logo" class="w-20 md:w-24" />
+            </div>
+            <ul
+              class="flex flex-col md:flex-row md:space-x-8 space-y-2 md:space-y-0"
+            >
+              <li
+                class="cursor-pointer text-md md:text-lg px-2 hover:scale-110 duration-150 transition-all"
+              >
+                Location
+              </li>
+              <li
+                class="cursor-pointer text-md md:text-lg px-2 hover:scale-110 duration-150 transition-all"
+              >
+                Blogs
+              </li>
+              <li
+                class="cursor-pointer text-md md:text-lg px-2 hover:scale-110 duration-150 transition-all"
+              >
+                Testimonials
+              </li>
+              <li
+                class="cursor-pointer text-md md:text-lg px-2 hover:scale-110 duration-150 transition-all"
+              >
+                Contact
+              </li>
+            </ul>
+          </nav>
+          <!-- Home Body -->
+          <div
+            class="flex flex-col justify-center items-start h-full max-w-2xl space-y-8"
+          >
+            <h1 class="text-5xl md:text-6xl">
+              Home That Makes You Living Life!
+            </h1>
+            <p class="max-w-xs text-sm font-light">
+              Are you looking for amazing Real estate? Don't worry! We got it
+              for you!
+            </p>
+            <button
+              class="bg-blue-500 p-2 rounded-full hover:text-blue-500 hover:bg-white transition-all duration-500 text-sm px-6 hover:shadow-lg hover:shadow-blue-500/30 font-semibold"
+            >
+              Learn More
+            </button>
+          </div>
+        </header>
+      </section>
+      <!-- logo Box -->
+      <section
+        class="flex flex-row justify-around items-center shadow-xl shadow-black/10 rounded-xl mt-[-15px] md:mt-[-30px] px-6 bg-white py-4 md:py-8 w-[80%] md:rounded-2xl"
+      >
+        <img
+          src="./Icons/logoName.svg"
+          alt="logo"
+          class="w-12 hidden md:flex md:w-20"
+        />
+        <img
+          src="./Icons/logoName.svg"
+          alt="logo"
+          class="w-12 hidden md:flex md:w-20"
+        />
+        <img src="./Icons/logoName.svg" alt="logo" class="w-12 md:w-20" />
+        <img src="./Icons/logoName.svg" alt="logo" class="w-12 md:w-20" />
+        <img src="./Icons/logoName.svg" alt="logo" class="w-12 md:w-20" />
+      </section>
+      <!-- Best Estate -->
+      <section
+        class="Best-estate mt-10 flex flex-col items-center space-y-5 px-2 md:px-20"
+      >
+        <h2 class="text-3xl md:text-5xl max-w-sm text-center">
+          Our Best Estate, are Morden!
+        </h2>
+        <!-- Best Container -->
+        <div class="flex flex-col gap-5 max-w-full">
+          <!--  Best container -->
+          <div
+            class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 w-full mt-6"
+          >
+            <div
+              class="flex flex-col max-w-96 lg:h-[400px] hover:scale-105 transition-all duration-200"
+            >
+              <img
+                src="./Photos/cardImage1.png"
+                alt="cardimg"
+                class="md:h-72 h-60 rounded-2xl"
+              />
+              <div
+                class="flex flex-row mt-[-30px] px-6 mb-4 justify-between mx-4 p-2 shadow-lg shadow-black/20 bg-white rounded-lg"
+              >
+                <div class="name-price">
+                  <p>Mixtownia</p>
+                  <p class="text-sm text-blue-600 font-semibold">$205,500</p>
+                </div>
+                <button
+                  class="bg-blue-500 text-white rounded-full my-1 hover:text-blue-500 hover:bg-white transition-all duration-500 text-sm px-6 hover:shadow-lg hover:shadow-blue-500/30 font-semibold"
+                >
+                  Details
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex flex-col max-w-96 lg:h-[400px] hover:scale-105 transition-all duration-200 md:justify-center"
+            >
+              <img
+                src="./Photos/cardImage2.png"
+                alt="cardimg"
+                class="md:h-72 h-60 rounded-2xl"
+              />
+              <div
+                class="flex flex-row mt-[-30px] px-6 mb-4 justify-between mx-4 p-2 shadow-lg shadow-black/20 bg-white rounded-lg"
+              >
+                <div class="name-price">
+                  <p>Mirtawan</p>
+                  <p class="text-sm text-blue-600 font-semibold">$102,200</p>
+                </div>
+                <button
+                  class="bg-blue-500 text-white rounded-full my-1 hover:text-blue-500 hover:bg-white transition-all duration-500 text-sm px-6 hover:shadow-lg hover:shadow-blue-500/30 font-semibold"
+                >
+                  Details
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex flex-col max-w-96 lg:h-[400px] hover:scale-105 transition-all duration-200 md:justify-end"
+            >
+              <img
+                src="./Photos/cardImage3.png"
+                alt="cardimg"
+                class="md:h-72 h-60 rounded-2xl"
+              />
+              <div
+                class="flex flex-row mt-[-30px] px-6 mb-4 justify-between mx-4 p-2 shadow-lg shadow-black/20 bg-white rounded-lg"
+              >
+                <div class="name-price">
+                  <p>Wartawan</p>
+                  <p class="text-sm text-blue-600 font-semibold">$135,900</p>
+                </div>
+                <button
+                  class="bg-blue-500 text-white rounded-full my-1 hover:text-blue-500 hover:bg-white transition-all duration-500 text-sm px-6 hover:shadow-lg hover:shadow-blue-500/30 font-semibold"
+                >
+                  Details
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex flex-col max-w-96 lg:h-[400px] hover:scale-105 transition-all duration-200 md:justify-end"
+            >
+              <img
+                src="./Photos/cardImage4.png"
+                alt="cardimg"
+                class="md:h-72 h-60 rounded-2xl"
+              />
+              <div
+                class="flex flex-row mt-[-30px] px-6 mb-4 justify-between mx-4 p-2 shadow-lg shadow-black/20 bg-white rounded-lg"
+              >
+                <div class="name-price">
+                  <p>Mixtownia</p>
+                  <p class="text-sm text-blue-600 font-semibold">$205,500</p>
+                </div>
+                <button
+                  class="bg-blue-500 text-white rounded-full my-1 hover:text-blue-500 hover:bg-white transition-all duration-500 text-sm px-6 hover:shadow-lg hover:shadow-blue-500/30 font-semibold"
+                >
+                  Details
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex flex-col max-w-96 lg:h-[400px] hover:scale-105 transition-all duration-200 md:justify-center"
+            >
+              <img
+                src="./Photos/cardImage5.png"
+                alt="cardimg"
+                class="md:h-72 h-60 rounded-2xl"
+              />
+              <div
+                class="flex flex-row mt-[-30px] px-6 mb-4 justify-between mx-4 p-2 shadow-lg shadow-black/20 bg-white rounded-lg"
+              >
+                <div class="name-price">
+                  <p>Mirtawan</p>
+                  <p class="text-sm text-blue-600 font-semibold">$102,200</p>
+                </div>
+                <button
+                  class="bg-blue-500 text-white rounded-full my-1 hover:text-blue-500 hover:bg-white transition-all duration-500 text-sm px-6 hover:shadow-lg hover:shadow-blue-500/30 font-semibold"
+                >
+                  Details
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex flex-col max-w-96 lg:h-[400px] hover:scale-105 transition-all duration-200"
+            >
+              <img
+                src="./Photos/cardImage6.png"
+                alt="cardimg"
+                class="md:h-72 h-60 rounded-2xl"
+              />
+              <div
+                class="flex flex-row mt-[-30px] px-6 mb-4 justify-between mx-4 p-2 shadow-lg shadow-black/20 bg-white rounded-lg"
+              >
+                <div class="name-price">
+                  <p>Wartawan</p>
+                  <p class="text-sm text-blue-600 font-semibold">$135,900</p>
+                </div>
+                <button
+                  class="bg-blue-500 text-white rounded-full my-1 hover:text-blue-500 hover:bg-white transition-all duration-500 text-sm px-6 hover:shadow-lg hover:shadow-blue-500/30 font-semibold"
+                >
+                  Details
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex flex-col max-w-96 lg:h-[400px] hover:scale-105 transition-all duration-200"
+            >
+              <img
+                src="./Photos/cardImage7.png"
+                alt="cardimg"
+                class="md:h-72 h-60 rounded-2xl"
+              />
+              <div
+                class="flex flex-row mt-[-30px] px-6 mb-4 justify-between mx-4 p-2 shadow-lg shadow-black/20 bg-white rounded-lg"
+              >
+                <div class="name-price">
+                  <p>Mixtownia</p>
+                  <p class="text-sm text-blue-600 font-semibold">$205,500</p>
+                </div>
+                <button
+                  class="bg-blue-500 text-white rounded-full my-1 hover:text-blue-500 hover:bg-white transition-all duration-500 text-sm px-6 hover:shadow-lg hover:shadow-blue-500/30 font-semibold"
+                >
+                  Details
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex flex-col max-w-96 lg:h-[400px] hover:scale-105 transition-all duration-200 md:justify-center"
+            >
+              <img
+                src="./Photos/cardImage8.png"
+                alt="cardimg"
+                class="md:h-72 h-60 rounded-2xl"
+              />
+              <div
+                class="flex flex-row mt-[-30px] px-6 mb-4 justify-between mx-4 p-2 shadow-lg shadow-black/20 bg-white rounded-lg"
+              >
+                <div class="name-price">
+                  <p>Mirtawan</p>
+                  <p class="text-sm text-blue-600 font-semibold">$102,200</p>
+                </div>
+                <button
+                  class="bg-blue-500 text-white rounded-full my-1 hover:text-blue-500 hover:bg-white transition-all duration-500 text-sm px-6 hover:shadow-lg hover:shadow-blue-500/30 font-semibold"
+                >
+                  Details
+                </button>
+              </div>
+            </div>
+            <div
+              class="flex flex-col max-w-96 lg:h-[400px] hover:scale-105 transition-all duration-200 md:justify-end md:hidden lg:flex"
+            >
+              <img
+                src="./Photos/cardImage9.png"
+                alt="cardimg"
+                class="md:h-72 h-60 rounded-2xl"
+              />
+              <div
+                class="flex flex-row mt-[-30px] px-6 mb-4 justify-between mx-4 p-2 shadow-lg shadow-black/20 bg-white rounded-lg"
+              >
+                <div class="name-price">
+                  <p>Wartawan</p>
+                  <p class="text-sm text-blue-600 font-semibold">$135,900</p>
+                </div>
+                <button
+                  class="bg-blue-500 text-white rounded-full my-1 hover:text-blue-500 hover:bg-white transition-all duration-500 text-sm px-6 hover:shadow-lg hover:shadow-blue-500/30 font-semibold"
+                >
+                  Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Detailed View -->
+      <section aria-label="Features">
+        <div class="flex flex-col max-h-fit mb-20 mt-20">
+          <div class="flex flex-col md:flex-row h-1/2 w-full">
+            <div
+              class="feature-img flex flex-col relative w-full md:w-1/2 md:h-full items-left object-none"
+            >
+              <img
+                src="./Icons/featureImageBg1.svg"
+                alt="bg"
+                class="relative"
+              />
+              <img
+                src="./Photos/featuresImage1.png"
+                alt="feature-img"
+                class="absolute w-3/4 right-14 top-0 rounded-2xl hover:scale-105 transition-all duration-500"
+              />
+            </div>
+            <div
+              class="feature-deatils flex flex-col w-full md:w-1/2 items-start justify-center space-y-3 px-2"
+            >
+              <h2 class="text-3xl md:text-4xl lg:text-6xl font-semibold">
+                Modern, Trendy, Affordable!
+              </h2>
+              <p class="max-w-md text-sm">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
+                nemo sequi autem reiciendis vitae recusandae!
+              </p>
+              <button
+                class="bg-blue-500 text-white rounded-full my-1 hover:text-blue-500 hover:bg-white transition-all p-2 duration-500 text-sm px-6 hover:shadow-lg hover:shadow-blue-500/30 font-semibold"
+              >
+                Early Bird Book
+              </button>
+            </div>
+          </div>
+          <div class="flex flex-col-reverse mt-10 md:flex-row relative h-1/2">
+            <div
+              class="flex flex-col w-full md:w-1/2 items-start justify-center space-y-3 p-2 md:pl-32"
+            >
+              <h2 class="text-3xl md:text-4xl lg:text-6xl font-semibold">
+                Unique House for Long Term!
+              </h2>
+              <p class="max-w-md text-sm">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
+                nemo sequi autem reiciendis vitae recusandae!
+              </p>
+              <button
+                class="bg-blue-500 text-white rounded-full my-1 hover:text-blue-500 hover:bg-white transition-all p-2 duration-500 text-sm px-6 hover:shadow-lg hover:shadow-blue-500/30 font-semibold"
+              >
+                Early Bird Book
+              </button>
+            </div>
+            <div
+              class="feature-img flex flex-col relative w-full md:w-1/2 md:h-full items-left object-none"
+            >
+              <img
+                src="./Icons/featureImageBg2.png"
+                alt="bg"
+                class="relative"
+              />
+              <img
+                src="./Photos/featuresImage2.png"
+                alt="feature-img"
+                class="absolute w-3/4 left-14 top-0 rounded-2xl hover:scale-105 transition-all duration-500"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- News Letter -->
+      <section
+        aria-label="news-letter"
+        class="w-screen px-5 md:px-16 lg:px-24 mb-20"
+      >
+        <div
+          class="newsletter-card bg-blue-600/80 w-full md:rounded-[80px] flex flex-col py-8 md:py-12 lg:py-16 px-5 text-center text-white items-center justify-center space-y-6"
+        >
+          <h2 class="font-bold text-2xl md:text-4xl lg:text-5xl max-w-2xl">
+            Susbscribe to Our NewsLetter For Weekly Article update.
+          </h2>
+          <p class="text-sm max-w-xl opacity-70">
+            We have real estate-realted blog so we can shre our thought and
+            utinity in our blog that updates weekly we will not spam yoy, we
+            promise.
+          </p>
+          <!-- Susbscription -->
+          <form
+            class="flex space-y-2 md:space-y-0 md:space-x-6 flex-col md:flex-row"
+          >
+            <div
+              class="input-email flex bg-blue-800 p-1 rounded-full px-4 items-center justify-start max-w-[500px] overflow-hidden"
+            >
+              <img src="./Icons/mail.png" alt="mail" class="h-6" />
+              <input
+                class="focus:outline-none placeholder:text-sm px-4 bg-blue-800 p-1"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your e-mail address"
+              />
+            </div>
+
+            <button
+              class="bg-white cursor-pointer text-blue-500 rounded-full hover:text-white hover:bg-blue-800 p-2 md:p-0 transition-all duration-500 md:px-8 hover:shadow-lg hover:shadow-white/30 font-semibold hover:border-white hover:border"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer>
+        <section
+          aria-label="Footer"
+          class="w-screen px-5 md:px-20 lg:px-28 inline-grid grid-cols-2 lg:grid-cols-4 md:gap-30 gap-10 mb-10"
+        >
+          <div class="space-y-4">
+            <img
+              src="./Icons/Logo.svg"
+              alt="footer-logo"
+              class="w-20 md:w-28"
+            />
+            <div class="flex gap-2 w-8 md:w-10">
+              <img
+                src="./Icons/facebook.png"
+                alt="facebook"
+                class="cursor-pointer hover:scale-105 transition-all duration-200"
+              />
+              <img
+                src="./Icons/twitter.png"
+                alt="twitter"
+                class="cursor-pointer hover:scale-105 transition-all duration-200"
+              />
+              <img
+                src="./Icons/instagram.png"
+                alt="instagram"
+                class="cursor-pointer hover:scale-105 transition-all duration-200"
+              />
+            </div>
+            <p class="max-w-lg">
+              2022 Award winning Real estate and Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+          <ul class="space-y-4">
+            <h4 class="font-bold">Location</h4>
+            <li
+              class="cursor-pointer hover:scale-105 transition-all duration-200"
+            >
+              America
+            </li>
+            <li
+              class="cursor-pointer hover:scale-105 transition-all duration-200"
+            >
+              Asia
+            </li>
+            <li
+              class="cursor-pointer hover:scale-105 transition-all duration-200"
+            >
+              Europe
+            </li>
+            <li
+              class="cursor-pointer hover:scale-105 transition-all duration-200"
+            >
+              Africa
+            </li>
+          </ul>
+          <ul class="space-y-4">
+            <h4 class="font-bold">Contact</h4>
+            <li
+              class="cursor-pointer hover:scale-105 transition-all duration-200"
+            >
+              About Me
+            </li>
+            <li
+              class="cursor-pointer hover:scale-105 transition-all duration-200"
+            >
+              Teams
+            </li>
+            <li
+              class="cursor-pointer hover:scale-105 transition-all duration-200"
+            >
+              Profile
+            </li>
+            <li
+              class="cursor-pointer hover:scale-105 transition-all duration-200"
+            >
+              FAQ
+            </li>
+          </ul>
+          <ul class="space-y-4">
+            <h4 class="font-bold">Legals</h4>
+            <li
+              class="cursor-pointer hover:scale-105 transition-all duration-200"
+            >
+              Privacy
+            </li>
+            <li
+              class="cursor-pointer hover:scale-105 transition-all duration-200"
+            >
+              Disclaimer
+            </li>
+            <li
+              class="cursor-pointer hover:scale-105 transition-all duration-200"
+            >
+              Terms
+            </li>
+            <li
+              class="cursor-pointer hover:scale-105 transition-all duration-200"
+            >
+              Company
+            </li>
+          </ul>
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>
